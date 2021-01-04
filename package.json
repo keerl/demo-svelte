@@ -12,7 +12,6 @@
     "lint": "npm run format && npx eslint . --ext .ts,.js,.svelte --fix"
   },
   "dependencies": {
-    "@nativescript-community/plugin-seed": "../plugin",
     "@nativescript/core": "~7.0.13",
     "@nativescript/detox": "^1.0.0",
     "@nativescript/theme": "~3.0.0",
