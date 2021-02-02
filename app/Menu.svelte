@@ -36,7 +36,7 @@
     }
 
     onMount(() => {
-        if (process.env.NODE_ENV === 'development') {
+        if (DEVELOPMENT) {
             const Development = demos.find(({ name }) => name === 'Development');
             if (Development) {
                 setTimeout(() => {
